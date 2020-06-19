@@ -6,10 +6,8 @@
 
 .blueberry { 
     max-width:1100px; 
-    height:500px;
-    overflow:hidden;
-    margin:0 auto;
-    margin-bottom:20px;
+    height:350px;
+    margin:0 20px;
 }
 
 body {
