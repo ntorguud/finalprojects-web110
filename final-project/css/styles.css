@@ -198,22 +198,37 @@ aside ul {
 aside li {
     margin-bottom:10px;
     font-size:1.1em;
+    font-style:italic;
 }
 
 aside a {
     color:#222;
 }
 
+label {
+    display:block;
+    margin-bottom:10px;
+    /* font-size:1.1em; */
+    font-style:italic;
+}
+
 fieldset {
-    border: #fff;
-    font-size:1.1em;
+    padding:10px;
+    border:1px dotted #888;
+}
+    
+
+legend {
+    font-size:1.7em;
+    font-style:italic;
+    padding:0 5px;
+    font-weight:bold;
 }
 
 input {
-    width:auto;
+    width:100%;
     height:25px;
     margin-bottom:10px;
-    display:block
 }
 
 input[type=submit] {
@@ -221,7 +236,6 @@ input[type=submit] {
     height:auto;
     padding:0 5px;
     font-size:1.3em;
-    font-weight:bold;
     display:block;
 }
 
@@ -230,6 +244,21 @@ input[type=checkbox] {
     width:auto;
     height:auto;
     margin-right:15px;
+}
+
+textarea {
+    width:100%;
+    height:60px;
+    margin-bottom:10px;  
+}
+
+form ul {
+    margin-left:15px;
+}
+
+form li {
+    list-style-type:none;
+    padding:5px;
 }
 
 .row {
