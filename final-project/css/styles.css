@@ -59,11 +59,11 @@ header {
 
 nav {
     float:left;
-    height:50px;
-    line-height:50px;
+    height:70px;
+    line-height:70px;
     width:100%;
     margin-bottom:20px;
-    background:lightgray;
+    background:rgba(36, 48, 219, 0.21);
     display:block;
 }
 
@@ -80,18 +80,19 @@ nav li {
     width:20%;
     text-align:center;
     font-size:1.1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav a {
     text-decoration:none;
     color:#6600ff;
     display:block;
-    font-size:1.1em;
+    font-size:1.4em;
 }
 
 nav a:hover {
     color:blue;
-    background-color:lightsteelblue;
+    background-color:rgba(63, 36, 219, 0.31);
     text-align:center;
 }
 
@@ -187,7 +188,7 @@ aside {
     width:33%;
     height:250px;
     /* background:lightblue; */
-    margin-left:
+    padding-left:100px;
 }
 
 aside ul {
@@ -196,6 +197,7 @@ aside ul {
 
 aside li {
     margin-bottom:10px;
+    font-size:1.1em;
 }
 
 aside a {
@@ -204,6 +206,7 @@ aside a {
 
 fieldset {
     border: #fff;
+    font-size:1.1em;
 }
 
 input {
