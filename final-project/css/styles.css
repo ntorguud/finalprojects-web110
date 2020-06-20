@@ -6,8 +6,12 @@
 
 .blueberry { 
     max-width:1100px; 
-    height:350px;
+    height:500px;
     margin:0 20px;
+}
+
+.slides {
+
 }
 
 body {
@@ -62,7 +66,7 @@ nav {
     width:100%;
     margin-bottom:20px;
     background:rgba(36, 48, 219, 0.21);
-    display:block;
+    /* display:block; */
 }
 
 nav ul {
@@ -96,7 +100,7 @@ nav a:hover {
 
 #wrapper {
     max-width:1100px;
-    margin:180px auto 0 auto;
+    margin:200px auto 0 auto;
     background:rgba(255, 255, 255, .6);
     padding:5px;
 }
